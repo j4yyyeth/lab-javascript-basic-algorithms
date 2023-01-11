@@ -11,7 +11,7 @@ console.log(`The navigator's name is ${hacker2}`);
 if (hacker1.length > hacker2.length) {
     console.log(`The driver has the longest name, it has ${hacker1.length} characters`);
 }
-else if () {
+else if (hacker2.length > hacker1.length) {
     console.log(`It seems that the navigator has the longest name, it has ${hacker2.length} characters`);
 }
 else {
@@ -20,21 +20,22 @@ else {
 
 // Iteration 3: Loops
 
-for (i = 0; i < hacker1.length; i++) {
-    console.log(hacker1.toLocaleUpperCase())
-}
+console.log(hacker1.split('').join(' ').toUpperCase());
+
+console.log(hacker2.split("").reverse("").join(""));
+
+if (hacker1.localeCompare(hacker2) > 0) {
+    console.log("The hacker1's name goes first.");
+  } 
+  else if (hacker1.localeCompare(hacker2) < 0) {
+    console.log("Yo, the hacker2 goes first definitely.");
+  }
+  else {
+  console.log("What?! You both have the same name? ");
+  }
+
+// BONUS: Bonus 1
 
 
-/* 
 
-3.1 Print the characters of the hacker1's name, separated by space, and in capital letters, i.e., "J O H N".
-
-3.2 Print all the characters of the hacker2's name, in reverse order, i.e., "nhoJ".
-
-3.3 Depending on the lexicographic order of the strings, print:
-
-The hacker1's name goes first.
-Yo, the hacker2 goes first definitely.
-What?! You both have the same name? 
-
-*/
+//BONUS: Bonus 2

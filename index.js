@@ -36,6 +36,22 @@ if (hacker1.localeCompare(hacker2) > 0) {
 
 // BONUS: Bonus 1
 
+let longText = "
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis sodales velit nec ultricies. Phasellus commodo velit leo, non tristique libero volutpat eget. Aliquam posuere, mauris nec gravida porta, risus mi elementum quam, vel tempus nisi sem id elit. Aliquam in tincidunt libero. Nunc lacinia mollis laoreet. Ut eleifend facilisis purus vitae interdum. Vestibulum eleifend fermentum suscipit. Nulla a tellus dolor. Curabitur eget pretium enim. Cras a commodo magna. Mauris lectus tellus, scelerisque in urna in, placerat euismod quam. Curabitur sodales, diam faucibus eleifend tempor, nisl mi tincidunt orci, sed faucibus ligula dui eu leo. In sagittis vitae augue quis cursus. Sed gravida, magna nec convallis dictum, mauris quam aliquet felis, a egestas erat augue ut nunc. Nam sit amet maximus dolor. Vestibulum leo mi, suscipit sit amet dolor a, porta sodales augue. Etiam in dictum quam, sit amet vulputate ligula. Vestibulum nisl dolor, hendrerit in ex at, fringilla commodo urna. Duis tempus viverra molestie. Integer eu mollis est. Curabitur a lacus sit amet nibh varius finibus. Phasellus vel porttitor dolor. Maecenas consequat, odio nec ullamcorper vulputate, nisl ipsum semper elit, vel finibus justo massa vel ante. Nulla iaculis elit at elit elementum congue. Nulla at odio eget libero euismod dictum. Pellentesque vitae maximus diam, quis vestibulum nibh. Mauris a convallis lectus. Curabitur lectus ligula, consectetur vel gravida id, aliquet vel ante. Duis imperdiet rutrum quam ut luctus. Nulla consectetur nisl eu erat aliquam blandit. Aliquam eu lacus et sem finibus fermentum quis ac tortor. Cras sit amet enim posuere, scelerisque erat vel, pretium psum.
+"
+
+let counter = 0;
+
+for (let i = 0; i < longText.length; i++) {
+  if (longText[i] + longText[i + 1] === "et")
+  {
+  counter++ }
+}
+
+console.log(counter)
+
 
 
 //BONUS: Bonus 2
+
+code 
